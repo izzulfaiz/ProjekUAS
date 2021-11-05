@@ -112,7 +112,7 @@ class _DetailsPageState extends State<DetailsPage> {
                       Row(
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         children: [
-                          Text('${widget.foodPrice}',
+                          Text('Rp.${widget.foodPrice}',
                               style: TextStyle(
                                   fontFamily: 'Montserrat',
                                   fontSize: 20.0,
@@ -145,7 +145,7 @@ class _DetailsPageState extends State<DetailsPage> {
                                 Text('$_count',
                                     style: TextStyle(
                                         color: Colors.white,
-                                        fontFamily: 'MOntserrat',
+                                        fontFamily: 'Montserrat',
                                         fontSize: 15.0)),
                                 InkWell(
                                   onTap: incrementCount,

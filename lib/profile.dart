@@ -46,6 +46,15 @@ class ProfilePage extends StatelessWidget {
                   'Hasif Izzul Faiz',
                   style: TextStyle(fontFamily: 'Montserrat', fontSize: 15.0),
                 ),
+              ),
+              SizedBox(
+                height: 50.0,
+              ),
+              Container(
+                child: Center(
+                  child:
+                      ElevatedButton(onPressed: () {}, child: Text('Logout')),
+                ),
               )
             ],
           ),

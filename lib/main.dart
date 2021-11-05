@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:makanan_sehat/detailsPage.dart';
-import 'package:makanan_sehat/minuman.dart';
+import 'package:makanan_sehat/checkout.dart';
 import 'package:makanan_sehat/profile.dart';
 
 void main() => runApp(MyApp());
@@ -159,7 +159,7 @@ class _MyHomePageState extends State<MyHomePage> {
                       onPressed: () {
                         Navigator.push(context,
                             MaterialPageRoute(builder: (context) {
-                          return MinumanPage();
+                          return CheckOutPage();
                         }));
                       },
                       icon: Icon(Icons.local_drink),
